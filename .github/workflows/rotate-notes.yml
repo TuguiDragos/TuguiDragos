@@ -1,0 +1,81 @@
+name: Rotate notes
+
+on:
+  schedule:
+    - cron: "17 4 * * *"
+  workflow_dispatch:
+
+permissions:
+  contents: write
+
+jobs:
+  rotate:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: "20"
+
+      - name: Pick today's five
+        run: |
+          cat > /tmp/rotate.mjs <<'JS'
+          import { readFileSync, writeFileSync } from "node:fs";
+
+          const FEED = "https://tuguidragos.com/rss/";
+          const decode = (s) => s
+            .replace(/&#(\d+);/g, (_, n) => String.fromCharCode(+n))
+            .replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">")
+            .replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'");
+
+          const xml = await (await fetch(FEED)).text();
+          const items = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map((m) => {
+            const grab = (tag) => {
+              const re = new RegExp(`<${tag}>(?:<!\\[CDATA\\[)?([\\s\\S]*?)(?:\\]\\]>)?</${tag}>`);
+              return (m[1].match(re) || [])[1] || "";
+            };
+            return { title: decode(grab("title").trim()), link: grab("link").trim() };
+          }).filter((i) => i.title && i.link);
+
+          if (items.length === 0) {
+            console.log("Feed returned no items — leaving README untouched.");
+            process.exit(0);
+          }
+
+          const day = new Date().toISOString().slice(0, 10);
+          let seed = 2166136261;
+          for (const ch of day) {
+            seed ^= ch.charCodeAt(0);
+            seed = Math.imul(seed, 16777619) >>> 0;
+          }
+          const rand = () => (seed = (Math.imul(seed, 1664525) + 1013904223) >>> 0) / 4294967296;
+          for (let i = items.length - 1; i > 0; i--) {
+            const j = Math.floor(rand() * (i + 1));
+            [items[i], items[j]] = [items[j], items[i]];
+          }
+
+          const list = items.slice(0, 5).map((i) => `- [${i.title}](${i.link})`).join("\n");
+          const file = "README.md";
+          const md = readFileSync(file, "utf8");
+          const next = md.replace(
+            /<!-- NOTES:START -->[\s\S]*?<!-- NOTES:END -->/,
+            `<!-- NOTES:START -->\n${list}\n<!-- NOTES:END -->`
+          );
+          if (next === md) {
+            console.log("No change.");
+          } else {
+            writeFileSync(file, next);
+            console.log("Wrote 5 notes for " + day);
+          }
+          JS
+          node /tmp/rotate.mjs
+
+      - name: Commit if changed
+        run: |
+          git config user.name "github-actions[bot]"
+          git config user.email "41898282+github-actions[bot]@users.noreply.github.com"
+          git add README.md
+          if ! git diff --staged --quiet; then
+            git commit -m "chore: rotate notes"
+            git push
+          fi
