@@ -15,9 +15,9 @@
 Everything I learn about quantum computing, written down in order, at [tuguidragos.com](https://tuguidragos.com). Five notes, picked fresh every day:
 
 <!-- NOTES:START -->
-- [Quantum gates are just matrices you can run by hand](https://tuguidragos.com/quantum-gates-are-just-matrices-you-can-run-by-hand/)
-- [Active recall for hard technical subjects](https://tuguidragos.com/active-recall-for-hard-technical-subjects/)
-- [Complex numbers are the gateway to quantum](https://tuguidragos.com/complex-numbers-are-the-gateway-to-quantum/)
+- [A qubit is not a coin under a cup](https://tuguidragos.com/a-qubit-is-not-a-coin-under-a-cup/)
+- [IBM Says I Understand Quantum Machine Learning Now](https://tuguidragos.com/ibm-says-i-understand-quantum-machine-learning-now/)
+- [How I use AI as a tutor without letting it lie to me](https://tuguidragos.com/how-i-use-ai-as-a-tutor-without-letting-it-lie-to-me/)
 - [The version trap that cost me an evening (Qiskit 2.x)](https://tuguidragos.com/the-version-trap-that-cost-me-an-evening-qiskit-2-x/)
 - [Measurement is not magic: the Born rule by hand](https://tuguidragos.com/measurement-is-not-magic-the-born-rule-by-hand/)
 <!-- NOTES:END -->
