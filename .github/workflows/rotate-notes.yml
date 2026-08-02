@@ -28,14 +28,37 @@ jobs:
             .replace(/&amp;/g, "&").replace(/&lt;/g, "<").replace(/&gt;/g, ">")
             .replace(/&quot;/g, '"').replace(/&#39;|&apos;/g, "'");
 
-          const xml = await (await fetch(FEED)).text();
-          const items = [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map((m) => {
+          const parse = (xml) => [...xml.matchAll(/<item>([\s\S]*?)<\/item>/g)].map((m) => {
             const grab = (tag) => {
               const re = new RegExp(`<${tag}>(?:<!\\[CDATA\\[)?([\\s\\S]*?)(?:\\]\\]>)?</${tag}>`);
               return (m[1].match(re) || [])[1] || "";
             };
             return { title: decode(grab("title").trim()), link: grab("link").trim() };
           }).filter((i) => i.title && i.link);
+
+          // Ghost pagineaza RSS-ul la 15 articole: urmarim paginile pana se termina
+          const items = [];
+          const links = new Set();
+          for (let page = 1; page <= 30; page++) {
+            const url = page === 1 ? FEED : `${FEED}${page}/`;
+            let res;
+            try {
+              res = await fetch(url);
+            } catch {
+              break;
+            }
+            if (!res.ok) break;
+            const batch = parse(await res.text());
+            if (batch.length === 0) break;
+            let added = 0;
+            for (const it of batch) {
+              if (links.has(it.link)) continue;
+              links.add(it.link);
+              items.push(it);
+              added++;
+            }
+            if (added === 0) break;
+          }
 
           if (items.length === 0) {
             console.log("Feed returned no items — leaving README untouched.");
@@ -83,7 +106,7 @@ jobs:
             console.log("No change.");
           } else {
             writeFileSync(file, next);
-            console.log(`Wrote ${picked.length} notes (deck ${cycle}, slot ${slot + 1}/${perCycle}).`);
+            console.log(`Wrote ${picked.length} of ${items.length} posts (deck ${cycle}, slot ${slot + 1}/${perCycle}).`);
           }
           JS
           node /tmp/rotate.mjs
