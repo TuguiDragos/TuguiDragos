@@ -42,19 +42,37 @@ jobs:
             process.exit(0);
           }
 
-          const day = new Date().toISOString().slice(0, 10);
-          let seed = 2166136261;
-          for (const ch of day) {
-            seed ^= ch.charCodeAt(0);
-            seed = Math.imul(seed, 16777619) >>> 0;
-          }
-          const rand = () => (seed = (Math.imul(seed, 1664525) + 1013904223) >>> 0) / 4294967296;
-          for (let i = items.length - 1; i > 0; i--) {
-            const j = Math.floor(rand() * (i + 1));
-            [items[i], items[j]] = [items[j], items[i]];
-          }
+          const PER_DAY = 5;
 
-          const list = items.slice(0, 5).map((i) => `- [${i.title}](${i.link})`).join("\n");
+          const shuffle = (arr, seedStr) => {
+            const a = arr.slice();
+            let seed = 2166136261;
+            for (const ch of seedStr) {
+              seed ^= ch.charCodeAt(0);
+              seed = Math.imul(seed, 16777619) >>> 0;
+            }
+            const rand = () => (seed = (Math.imul(seed, 1664525) + 1013904223) >>> 0) / 4294967296;
+            for (let i = a.length - 1; i > 0; i--) {
+              const j = Math.floor(rand() * (i + 1));
+              [a[i], a[j]] = [a[j], a[i]];
+            }
+            return a;
+          };
+
+          const dayNo = Math.floor(Date.now() / 86400000);
+          const perCycle = Math.ceil(items.length / PER_DAY);
+          const cycle = Math.floor(dayNo / perCycle);
+          const slot = ((dayNo % perCycle) + perCycle) % perCycle;
+          const deck = shuffle(items, "cycle-" + cycle);
+
+          const today = [];
+          for (let k = 0; k < PER_DAY && k < deck.length; k++) {
+            today.push(deck[(slot * PER_DAY + k) % deck.length]);
+          }
+          const seen = new Set();
+          const picked = today.filter((i) => !seen.has(i.link) && seen.add(i.link));
+
+          const list = picked.map((i) => `- [${i.title}](${i.link})`).join("\n");
           const file = "README.md";
           const md = readFileSync(file, "utf8");
           const next = md.replace(
@@ -65,7 +83,7 @@ jobs:
             console.log("No change.");
           } else {
             writeFileSync(file, next);
-            console.log("Wrote 5 notes for " + day);
+            console.log(`Wrote ${picked.length} notes (deck ${cycle}, slot ${slot + 1}/${perCycle}).`);
           }
           JS
           node /tmp/rotate.mjs
