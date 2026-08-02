@@ -15,11 +15,11 @@
 Everything I learn about quantum computing, written down in order, at [tuguidragos.com](https://tuguidragos.com). Five notes, picked fresh every day:
 
 <!-- NOTES:START -->
-- [A qubit is not a coin under a cup](https://tuguidragos.com/a-qubit-is-not-a-coin-under-a-cup/)
-- [IBM Says I Understand Quantum Machine Learning Now](https://tuguidragos.com/ibm-says-i-understand-quantum-machine-learning-now/)
-- [How I use AI as a tutor without letting it lie to me](https://tuguidragos.com/how-i-use-ai-as-a-tutor-without-letting-it-lie-to-me/)
+- [The Python you actually need for quantum computing](https://tuguidragos.com/the-python-you-actually-need-for-quantum-computing/)
+- [Running Quantum Circuits on Real IBM Hardware from n8n](https://tuguidragos.com/quantum-circuits-ibm-hardware-n8n/)
 - [The version trap that cost me an evening (Qiskit 2.x)](https://tuguidragos.com/the-version-trap-that-cost-me-an-evening-qiskit-2-x/)
-- [Measurement is not magic: the Born rule by hand](https://tuguidragos.com/measurement-is-not-magic-the-born-rule-by-hand/)
+- [Quantum gates are just matrices you can run by hand](https://tuguidragos.com/quantum-gates-are-just-matrices-you-can-run-by-hand/)
+- [I Just Earned My First IBM Quantum Badge and I Am Not Going Back](https://tuguidragos.com/i-earned-my-first-ibm-quantum-badge/)
 <!-- NOTES:END -->
 
 <br>
