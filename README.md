@@ -15,11 +15,11 @@
 Everything I learn about quantum computing, written down in order, at [tuguidragos.com](https://tuguidragos.com). Five notes, picked fresh every day:
 
 <!-- NOTES:START -->
-- [The density matrix: what the state vector misses](https://tuguidragos.com/the-density-matrix-what-the-state-vector-misses/)
-- [The Python you actually need for quantum computing](https://tuguidragos.com/the-python-you-actually-need-for-quantum-computing/)
-- [Complex numbers are the gateway to quantum](https://tuguidragos.com/complex-numbers-are-the-gateway-to-quantum/)
-- [IBM Says I Understand Quantum Machine Learning Now](https://tuguidragos.com/ibm-says-i-understand-quantum-machine-learning-now/)
-- [Measurement is not magic: the Born rule by hand](https://tuguidragos.com/measurement-is-not-magic-the-born-rule-by-hand/)
+- [My IBM Quantum node for n8n is now live](https://tuguidragos.com/ibm-quantum-node-for-n8n/)
+- [How I use AI as a tutor without letting it lie to me](https://tuguidragos.com/how-i-use-ai-as-a-tutor-without-letting-it-lie-to-me/)
+- [The version trap that cost me an evening (Qiskit 2.x)](https://tuguidragos.com/the-version-trap-that-cost-me-an-evening-qiskit-2-x/)
+- [Six defects in a verified n8n node for IBM Quantum](https://tuguidragos.com/six-defects-verified-n8n-node-ibm-quantum/)
+- [Running Quantum Circuits on Real IBM Hardware from n8n](https://tuguidragos.com/quantum-circuits-ibm-hardware-n8n/)
 <!-- NOTES:END -->
 
 <br>
