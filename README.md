@@ -15,11 +15,11 @@
 Everything I learn about quantum computing, written down in order, at [tuguidragos.com](https://tuguidragos.com). Five notes, picked fresh every day:
 
 <!-- NOTES:START -->
-- [My IBM Quantum node for n8n is now live](https://tuguidragos.com/ibm-quantum-node-for-n8n/)
-- [How I use AI as a tutor without letting it lie to me](https://tuguidragos.com/how-i-use-ai-as-a-tutor-without-letting-it-lie-to-me/)
-- [The version trap that cost me an evening (Qiskit 2.x)](https://tuguidragos.com/the-version-trap-that-cost-me-an-evening-qiskit-2-x/)
-- [Six defects in a verified n8n node for IBM Quantum](https://tuguidragos.com/six-defects-verified-n8n-node-ibm-quantum/)
-- [Running Quantum Circuits on Real IBM Hardware from n8n](https://tuguidragos.com/quantum-circuits-ibm-hardware-n8n/)
+- [A qubit is not a coin under a cup](https://tuguidragos.com/a-qubit-is-not-a-coin-under-a-cup/)
+- [Three quantum ways to diagonalize a giant matrix](https://tuguidragos.com/three-quantum-ways-to-diagonalize-a-giant-matrix/)
+- [I Just Earned My Second IBM Quantum Badge, and It Says Advanced](https://tuguidragos.com/i-earned-an-advanced-ibm-quantum-badge/)
+- [Active recall for hard technical subjects](https://tuguidragos.com/active-recall-for-hard-technical-subjects/)
+- [Quantum gates are just matrices you can run by hand](https://tuguidragos.com/quantum-gates-are-just-matrices-you-can-run-by-hand/)
 <!-- NOTES:END -->
 
 <br>
