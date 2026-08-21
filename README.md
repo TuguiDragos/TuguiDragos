@@ -15,11 +15,11 @@ I keep a public record of my path into quantum computing. It includes the ideas 
 Five entries from the notebook, refreshed daily:
 
 <!-- NOTES:START -->
-- [The version trap that cost me an evening (Qiskit 2.x)](https://tuguidragos.com/the-version-trap-that-cost-me-an-evening-qiskit-2-x/)
-- [I could not find a place to practise Qiskit, so I built one](https://tuguidragos.com/i-built-a-place-to-practise-qiskit/)
-- [Complex numbers are the gateway to quantum](https://tuguidragos.com/complex-numbers-are-the-gateway-to-quantum/)
-- [Entanglement, explained without the spooky](https://tuguidragos.com/entanglement-explained-without-the-spooky/)
-- [IBM Says I Understand Quantum Machine Learning Now](https://tuguidragos.com/ibm-says-i-understand-quantum-machine-learning-now/)
+- [The density matrix: what the state vector misses](https://tuguidragos.com/the-density-matrix-what-the-state-vector-misses/)
+- [Active recall for hard technical subjects](https://tuguidragos.com/active-recall-for-hard-technical-subjects/)
+- [Quantum gates are just matrices you can run by hand](https://tuguidragos.com/quantum-gates-are-just-matrices-you-can-run-by-hand/)
+- [Three quantum ways to diagonalize a giant matrix](https://tuguidragos.com/three-quantum-ways-to-diagonalize-a-giant-matrix/)
+- [My IBM Quantum node for n8n is now live](https://tuguidragos.com/ibm-quantum-node-for-n8n/)
 <!-- NOTES:END -->
 
 <br>
