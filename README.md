@@ -15,11 +15,11 @@ I keep a public record of my path into quantum computing. It includes the ideas 
 Five entries from the notebook, refreshed daily:
 
 <!-- NOTES:START -->
-- [The density matrix: what the state vector misses](https://tuguidragos.com/the-density-matrix-what-the-state-vector-misses/)
-- [Active recall for hard technical subjects](https://tuguidragos.com/active-recall-for-hard-technical-subjects/)
-- [Quantum gates are just matrices you can run by hand](https://tuguidragos.com/quantum-gates-are-just-matrices-you-can-run-by-hand/)
-- [Three quantum ways to diagonalize a giant matrix](https://tuguidragos.com/three-quantum-ways-to-diagonalize-a-giant-matrix/)
-- [My IBM Quantum node for n8n is now live](https://tuguidragos.com/ibm-quantum-node-for-n8n/)
+- [The tensor product: why 10 qubits means 1024 numbers](https://tuguidragos.com/the-tensor-product-why-10-qubits-means-1024-numbers/)
+- [Six defects in a verified n8n node for IBM Quantum](https://tuguidragos.com/six-defects-verified-n8n-node-ibm-quantum/)
+- [Measurement is not magic: the Born rule by hand](https://tuguidragos.com/measurement-is-not-magic-the-born-rule-by-hand/)
+- [Running Quantum Circuits on Real IBM Hardware from n8n](https://tuguidragos.com/quantum-circuits-ibm-hardware-n8n/)
+- [How I use AI as a tutor without letting it lie to me](https://tuguidragos.com/how-i-use-ai-as-a-tutor-without-letting-it-lie-to-me/)
 <!-- NOTES:END -->
 
 <br>
