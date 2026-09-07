@@ -15,11 +15,11 @@ I keep a public record of my path into quantum computing. It includes the ideas 
 Five entries from the notebook, refreshed daily:
 
 <!-- NOTES:START -->
-- [Complex numbers are the gateway to quantum](https://tuguidragos.com/complex-numbers-are-the-gateway-to-quantum/)
-- [Quantum gates are just matrices you can run by hand](https://tuguidragos.com/quantum-gates-are-just-matrices-you-can-run-by-hand/)
-- [My IBM Quantum node for n8n is now live](https://tuguidragos.com/ibm-quantum-node-for-n8n/)
-- [Measurement is not magic: the Born rule by hand](https://tuguidragos.com/measurement-is-not-magic-the-born-rule-by-hand/)
+- [Entanglement, explained without the spooky](https://tuguidragos.com/entanglement-explained-without-the-spooky/)
 - [The tensor product: why 10 qubits means 1024 numbers](https://tuguidragos.com/the-tensor-product-why-10-qubits-means-1024-numbers/)
+- [The version trap that cost me an evening (Qiskit 2.x)](https://tuguidragos.com/the-version-trap-that-cost-me-an-evening-qiskit-2-x/)
+- [Six defects in a verified n8n node for IBM Quantum](https://tuguidragos.com/six-defects-verified-n8n-node-ibm-quantum/)
+- [Quantum gates are just matrices you can run by hand](https://tuguidragos.com/quantum-gates-are-just-matrices-you-can-run-by-hand/)
 <!-- NOTES:END -->
 
 <br>
