@@ -15,11 +15,11 @@ I keep a public record of my path into quantum computing. It includes the ideas 
 Five entries from the notebook, refreshed daily:
 
 <!-- NOTES:START -->
-- [Relative phase: the invisible engine of quantum](https://tuguidragos.com/relative-phase-the-invisible-engine-of-quantum/)
-- [Six defects in a verified n8n node for IBM Quantum](https://tuguidragos.com/six-defects-verified-n8n-node-ibm-quantum/)
-- [I ran a Bell state on real IBM quantum hardware](https://tuguidragos.com/i-ran-a-bell-state-on-real-ibm-quantum-hardware/)
-- [The tensor product: why 10 qubits means 1024 numbers](https://tuguidragos.com/the-tensor-product-why-10-qubits-means-1024-numbers/)
-- [Active recall for hard technical subjects](https://tuguidragos.com/active-recall-for-hard-technical-subjects/)
+- [I could not find a place to practise Qiskit, so I built one](https://tuguidragos.com/i-built-a-place-to-practise-qiskit/)
+- [Complex numbers are the gateway to quantum](https://tuguidragos.com/complex-numbers-are-the-gateway-to-quantum/)
+- [Running a quantum job like an automation pipeline](https://tuguidragos.com/running-a-quantum-job-like-an-automation-pipeline/)
+- [The version trap that cost me an evening (Qiskit 2.x)](https://tuguidragos.com/the-version-trap-that-cost-me-an-evening-qiskit-2-x/)
+- [I made 58 themes for myself, then measured every colour in them](https://tuguidragos.com/58-vs-code-themes-measured/)
 <!-- NOTES:END -->
 
 <br>
