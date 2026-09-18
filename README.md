@@ -15,11 +15,11 @@ I keep a public record of my path into quantum computing. It includes the ideas 
 Five entries from the notebook, refreshed daily:
 
 <!-- NOTES:START -->
-- [I could not find a place to practise Qiskit, so I built one](https://tuguidragos.com/i-built-a-place-to-practise-qiskit/)
-- [Complex numbers are the gateway to quantum](https://tuguidragos.com/complex-numbers-are-the-gateway-to-quantum/)
-- [Running a quantum job like an automation pipeline](https://tuguidragos.com/running-a-quantum-job-like-an-automation-pipeline/)
-- [The version trap that cost me an evening (Qiskit 2.x)](https://tuguidragos.com/the-version-trap-that-cost-me-an-evening-qiskit-2-x/)
-- [I made 58 themes for myself, then measured every colour in them](https://tuguidragos.com/58-vs-code-themes-measured/)
+- [Qiskit Global Summer School 2026: 4 labs, 473 seconds of real quantum time, 1 badge](https://tuguidragos.com/qiskit-global-summer-school-2026-quantum-excellence-badge/)
+- [Entanglement, explained without the spooky](https://tuguidragos.com/entanglement-explained-without-the-spooky/)
+- [Quantum gates are just matrices you can run by hand](https://tuguidragos.com/quantum-gates-are-just-matrices-you-can-run-by-hand/)
+- [Why your qubits forget: decoherence in plain words](https://tuguidragos.com/why-your-qubits-forget-decoherence-in-plain-words/)
+- [One circuit, two IBM Quantum error codes: 1506 and 1603](https://tuguidragos.com/ibm-quantum-error-code-1506-1603/)
 <!-- NOTES:END -->
 
 <br>
