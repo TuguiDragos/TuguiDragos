@@ -15,11 +15,11 @@ I keep a public record of my path into quantum computing. It includes the ideas 
 Five entries from the notebook, refreshed daily:
 
 <!-- NOTES:START -->
-- [The version trap that cost me an evening (Qiskit 2.x)](https://tuguidragos.com/the-version-trap-that-cost-me-an-evening-qiskit-2-x/)
-- [Quantum gates are just matrices you can run by hand](https://tuguidragos.com/quantum-gates-are-just-matrices-you-can-run-by-hand/)
+- [Why your qubits forget: decoherence in plain words](https://tuguidragos.com/why-your-qubits-forget-decoherence-in-plain-words/)
 - [One circuit, two IBM Quantum error codes: 1506 and 1603](https://tuguidragos.com/ibm-quantum-error-code-1506-1603/)
 - [Active recall for hard technical subjects](https://tuguidragos.com/active-recall-for-hard-technical-subjects/)
 - [I made 58 themes for myself, then measured every colour in them](https://tuguidragos.com/58-vs-code-themes-measured/)
+- [I ran a Bell state on real IBM quantum hardware](https://tuguidragos.com/i-ran-a-bell-state-on-real-ibm-quantum-hardware/)
 <!-- NOTES:END -->
 
 <br>
