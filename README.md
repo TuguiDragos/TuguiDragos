@@ -15,11 +15,11 @@ I keep a public record of my path into quantum computing. It includes the ideas 
 Five entries from the notebook, refreshed daily:
 
 <!-- NOTES:START -->
-- [Running a quantum job like an automation pipeline](https://tuguidragos.com/running-a-quantum-job-like-an-automation-pipeline/)
-- [Relative phase: the invisible engine of quantum](https://tuguidragos.com/relative-phase-the-invisible-engine-of-quantum/)
-- [I ran a Bell state on real IBM quantum hardware](https://tuguidragos.com/i-ran-a-bell-state-on-real-ibm-quantum-hardware/)
-- [Phase kickback: the trick behind quantum algorithms](https://tuguidragos.com/phase-kickback-the-trick-behind-quantum-algorithms/)
-- [I made 58 themes for myself, then measured every colour in them](https://tuguidragos.com/58-vs-code-themes-measured/)
+- [I could not find a place to practise Qiskit, so I built one](https://tuguidragos.com/i-built-a-place-to-practise-qiskit/)
+- [The tensor product: why 10 qubits means 1024 numbers](https://tuguidragos.com/the-tensor-product-why-10-qubits-means-1024-numbers/)
+- [From counts to histogram: reading quantum results](https://tuguidragos.com/from-counts-to-histogram-reading-quantum-results/)
+- [Qiskit Global Summer School 2026: 4 labs, 473 seconds of real quantum time, 1 badge](https://tuguidragos.com/qiskit-global-summer-school-2026-quantum-excellence-badge/)
+- [Quantum gates are just matrices you can run by hand](https://tuguidragos.com/quantum-gates-are-just-matrices-you-can-run-by-hand/)
 <!-- NOTES:END -->
 
 <br>
