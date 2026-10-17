@@ -15,11 +15,11 @@ I keep a public record of my path into quantum computing. It includes the ideas 
 Five entries from the notebook, refreshed daily:
 
 <!-- NOTES:START -->
-- [Entanglement, explained without the spooky](https://tuguidragos.com/entanglement-explained-without-the-spooky/)
-- [From counts to histogram: reading quantum results](https://tuguidragos.com/from-counts-to-histogram-reading-quantum-results/)
-- [I could not find a place to practise Qiskit, so I built one](https://tuguidragos.com/i-built-a-place-to-practise-qiskit/)
-- [Phase kickback: the trick behind quantum algorithms](https://tuguidragos.com/phase-kickback-the-trick-behind-quantum-algorithms/)
-- [Why your qubits forget: decoherence in plain words](https://tuguidragos.com/why-your-qubits-forget-decoherence-in-plain-words/)
+- [Deutsch Jozsa: the hello world of quantum advantage](https://tuguidragos.com/deutsch-jozsa-the-hello-world-of-quantum-advantage/)
+- [Six defects in a verified n8n node for IBM Quantum](https://tuguidragos.com/six-defects-verified-n8n-node-ibm-quantum/)
+- [I made 58 themes for myself, then measured every colour in them](https://tuguidragos.com/58-vs-code-themes-measured/)
+- [One circuit, two IBM Quantum error codes: 1506 and 1603](https://tuguidragos.com/ibm-quantum-error-code-1506-1603/)
+- [Qiskit Global Summer School 2026: 4 labs, 473 seconds of real quantum time, 1 badge](https://tuguidragos.com/qiskit-global-summer-school-2026-quantum-excellence-badge/)
 <!-- NOTES:END -->
 
 <br>
