@@ -15,11 +15,11 @@ I keep a public record of my path into quantum computing. It includes the ideas 
 Five entries from the notebook, refreshed daily:
 
 <!-- NOTES:START -->
-- [From counts to histogram: reading quantum results](https://tuguidragos.com/from-counts-to-histogram-reading-quantum-results/)
+- [Quantum teleportation is not what the name promises](https://tuguidragos.com/quantum-teleportation-is-not-what-the-name-promises/)
 - [Deutsch Jozsa: the hello world of quantum advantage](https://tuguidragos.com/deutsch-jozsa-the-hello-world-of-quantum-advantage/)
+- [Qiskit Global Summer School 2026: 4 labs, 473 seconds of real quantum time, 1 badge](https://tuguidragos.com/qiskit-global-summer-school-2026-quantum-excellence-badge/)
+- [Why your qubits forget: decoherence in plain words](https://tuguidragos.com/why-your-qubits-forget-decoherence-in-plain-words/)
 - [Relative phase: the invisible engine of quantum](https://tuguidragos.com/relative-phase-the-invisible-engine-of-quantum/)
-- [One circuit, two IBM Quantum error codes: 1506 and 1603](https://tuguidragos.com/ibm-quantum-error-code-1506-1603/)
-- [Phase kickback: the trick behind quantum algorithms](https://tuguidragos.com/phase-kickback-the-trick-behind-quantum-algorithms/)
 <!-- NOTES:END -->
 
 <br>
