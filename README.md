@@ -15,11 +15,11 @@ I keep a public record of my path into quantum computing. It includes the ideas 
 Five entries from the notebook, refreshed daily:
 
 <!-- NOTES:START -->
-- [I ran a Bell state on real IBM quantum hardware](https://tuguidragos.com/i-ran-a-bell-state-on-real-ibm-quantum-hardware/)
-- [I made 58 themes for myself, then measured every colour in them](https://tuguidragos.com/58-vs-code-themes-measured/)
-- [The honest state of quantum in 2026 (NISQ, no hype)](https://tuguidragos.com/the-honest-state-of-quantum-in-2026-nisq-no-hype/)
-- [The tensor product: why 10 qubits means 1024 numbers](https://tuguidragos.com/the-tensor-product-why-10-qubits-means-1024-numbers/)
-- [Why your qubits forget: decoherence in plain words](https://tuguidragos.com/why-your-qubits-forget-decoherence-in-plain-words/)
+- [Phase kickback: the trick behind quantum algorithms](https://tuguidragos.com/phase-kickback-the-trick-behind-quantum-algorithms/)
+- [Deutsch Jozsa: the hello world of quantum advantage](https://tuguidragos.com/deutsch-jozsa-the-hello-world-of-quantum-advantage/)
+- [Quantum teleportation is not what the name promises](https://tuguidragos.com/quantum-teleportation-is-not-what-the-name-promises/)
+- [From counts to histogram: reading quantum results](https://tuguidragos.com/from-counts-to-histogram-reading-quantum-results/)
+- [Running a quantum job like an automation pipeline](https://tuguidragos.com/running-a-quantum-job-like-an-automation-pipeline/)
 <!-- NOTES:END -->
 
 <br>
