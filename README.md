@@ -15,11 +15,11 @@ I keep a public record of my path into quantum computing. It includes the ideas 
 Five entries from the notebook, refreshed daily:
 
 <!-- NOTES:START -->
-- [Superdense coding: the mirror image of teleportation](https://tuguidragos.com/superdense-coding-the-mirror-image-of-teleportation/)
-- [Grover's algorithm from scratch, and why only quadratic](https://tuguidragos.com/grovers-algorithm-from-scratch-and-why-only-quadratic/)
-- [One circuit, two IBM Quantum error codes: 1506 and 1603](https://tuguidragos.com/ibm-quantum-error-code-1506-1603/)
-- [Why your qubits forget: decoherence in plain words](https://tuguidragos.com/why-your-qubits-forget-decoherence-in-plain-words/)
-- [I made 58 themes for myself, then measured every colour in them](https://tuguidragos.com/58-vs-code-themes-measured/)
+- [The honest state of quantum in 2026 (NISQ, no hype)](https://tuguidragos.com/the-honest-state-of-quantum-in-2026-nisq-no-hype/)
+- [Deutsch Jozsa: the hello world of quantum advantage](https://tuguidragos.com/deutsch-jozsa-the-hello-world-of-quantum-advantage/)
+- [Running a quantum job like an automation pipeline](https://tuguidragos.com/running-a-quantum-job-like-an-automation-pipeline/)
+- [Quantum teleportation is not what the name promises](https://tuguidragos.com/quantum-teleportation-is-not-what-the-name-promises/)
+- [From counts to histogram: reading quantum results](https://tuguidragos.com/from-counts-to-histogram-reading-quantum-results/)
 <!-- NOTES:END -->
 
 <br>
