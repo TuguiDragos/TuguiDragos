@@ -15,11 +15,11 @@ I keep a public record of my path into quantum computing. It includes the ideas 
 Five entries from the notebook, refreshed daily:
 
 <!-- NOTES:START -->
-- [The honest state of quantum in 2026 (NISQ, no hype)](https://tuguidragos.com/the-honest-state-of-quantum-in-2026-nisq-no-hype/)
-- [Deutsch Jozsa: the hello world of quantum advantage](https://tuguidragos.com/deutsch-jozsa-the-hello-world-of-quantum-advantage/)
-- [Running a quantum job like an automation pipeline](https://tuguidragos.com/running-a-quantum-job-like-an-automation-pipeline/)
+- [Phase kickback: the trick behind quantum algorithms](https://tuguidragos.com/phase-kickback-the-trick-behind-quantum-algorithms/)
 - [Quantum teleportation is not what the name promises](https://tuguidragos.com/quantum-teleportation-is-not-what-the-name-promises/)
+- [Grover's algorithm from scratch, and why only quadratic](https://tuguidragos.com/grovers-algorithm-from-scratch-and-why-only-quadratic/)
 - [From counts to histogram: reading quantum results](https://tuguidragos.com/from-counts-to-histogram-reading-quantum-results/)
+- [Running a quantum job like an automation pipeline](https://tuguidragos.com/running-a-quantum-job-like-an-automation-pipeline/)
 <!-- NOTES:END -->
 
 <br>
