@@ -15,11 +15,11 @@ I keep a public record of my path into quantum computing. It includes the ideas 
 Five entries from the notebook, refreshed daily:
 
 <!-- NOTES:START -->
+- [Quantum teleportation is not what the name promises](https://tuguidragos.com/quantum-teleportation-is-not-what-the-name-promises/)
+- [I made 58 themes for myself, then measured every colour in them](https://tuguidragos.com/58-vs-code-themes-measured/)
 - [Phase kickback: the trick behind quantum algorithms](https://tuguidragos.com/phase-kickback-the-trick-behind-quantum-algorithms/)
+- [I ran a Bell state on real IBM quantum hardware](https://tuguidragos.com/i-ran-a-bell-state-on-real-ibm-quantum-hardware/)
 - [Grover's algorithm from scratch, and why only quadratic](https://tuguidragos.com/grovers-algorithm-from-scratch-and-why-only-quadratic/)
-- [Relative phase: the invisible engine of quantum](https://tuguidragos.com/relative-phase-the-invisible-engine-of-quantum/)
-- [From counts to histogram: reading quantum results](https://tuguidragos.com/from-counts-to-histogram-reading-quantum-results/)
-- [Running a quantum job like an automation pipeline](https://tuguidragos.com/running-a-quantum-job-like-an-automation-pipeline/)
 <!-- NOTES:END -->
 
 <br>
